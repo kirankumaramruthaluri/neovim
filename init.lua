@@ -15,8 +15,6 @@ else
 	require("config.keymaps")
 end
 
-require("games")
-
 require("lspconfig").tailwindcss.setup({
 	cmd = { "tailwindcss-language-server", "--stdio" }, -- Ensure it points to the correct command
 	filetypes = { "html", "css", "javascript", "typescript", "javascriptreact", "typescriptreact", "vue", "svelte" }, -- File types for Tailwind CSS
